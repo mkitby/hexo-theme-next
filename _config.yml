@@ -27,8 +27,8 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -57,7 +57,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -156,6 +156,7 @@ use_font_lato: true
 # ---------------------------------------------------------------
 
 # MathJax Support
+# 将 mathjax 设定为 true 即可打开 
 mathjax:
 
 
@@ -163,13 +164,13 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+#baidu_analytics: 
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+#duoshuo_shortname: 
 
 # Disqus
-#disqus_shortname:
+#disqus_shortname: 
 
 # Share
 #jiathis:
@@ -219,7 +220,7 @@ facebook_sdk:
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: true
+use_motion: false
 
 # Fancybox
 fancybox: true
