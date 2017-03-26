@@ -286,7 +286,7 @@ mathjax:
 
 
 # Swiftype Search API Key
-swiftype_key: WbDyBT-jezXxratZXAtH
+swiftype_key: 
 
 # Baidu Analytics ID
 baidu_analytics: 774b09b66f1731e6b071844565c08311
@@ -324,11 +324,11 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-baidushare: true
+baidushare: 
 ##  type: button
 
 # Share
-jiathis:
+jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -446,7 +446,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
